@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F659F88F18E4DF72009F331D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F659F88E18E4DF72009F331D /* Cocoa.framework */; };
+		F659F89918E4DF72009F331D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F659F89718E4DF72009F331D /* InfoPlist.strings */; };
+		F659F89B18E4DF72009F331D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F659F89A18E4DF72009F331D /* main.m */; };
+		F659F89F18E4DF72009F331D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F659F89D18E4DF72009F331D /* Credits.rtf */; };
+		F659F8A218E4DF72009F331D /* HcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F659F8A118E4DF72009F331D /* HcAppDelegate.m */; };
+		F659F8A518E4DF72009F331D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F659F8A318E4DF72009F331D /* MainMenu.xib */; };
+		F659F8A718E4DF72009F331D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F659F8A618E4DF72009F331D /* Images.xcassets */; };
+		F659F8AE18E4DF72009F331D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F659F8AD18E4DF72009F331D /* XCTest.framework */; };
+		F659F8AF18E4DF72009F331D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F659F88E18E4DF72009F331D /* Cocoa.framework */; };
+		F659F8B718E4DF72009F331D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F659F8B518E4DF72009F331D /* InfoPlist.strings */; };
+		F659F8B918E4DF72009F331D /* ByteEditorFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F659F8B818E4DF72009F331D /* ByteEditorFieldTests.m */; };
+		F659F8C918E4DFD4009F331D /* HcByteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F659F8C318E4DFD4009F331D /* HcByteTextField.m */; };
+		F659F8CA18E4DFD4009F331D /* HcByteValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F659F8C518E4DFD4009F331D /* HcByteValue.m */; };
+		F659F8CB18E4DFD4009F331D /* HcByteValueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F659F8C618E4DFD4009F331D /* HcByteValueView.xib */; };
+		F659F8CC18E4DFD4009F331D /* HcByteValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F659F8C818E4DFD4009F331D /* HcByteValueViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F659F8B018E4DF72009F331D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F659F88318E4DF72009F331D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F659F88A18E4DF72009F331D;
+			remoteInfo = ByteEditorField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F659F88B18E4DF72009F331D /* ByteEditorField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteEditorField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F659F88E18E4DF72009F331D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F659F89118E4DF72009F331D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F659F89218E4DF72009F331D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F659F89318E4DF72009F331D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F659F89618E4DF72009F331D /* ByteEditorField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ByteEditorField-Info.plist"; sourceTree = "<group>"; };
+		F659F89818E4DF72009F331D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F659F89A18E4DF72009F331D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F659F89C18E4DF72009F331D /* ByteEditorField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ByteEditorField-Prefix.pch"; sourceTree = "<group>"; };
+		F659F89E18E4DF72009F331D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F659F8A018E4DF72009F331D /* HcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HcAppDelegate.h; sourceTree = "<group>"; };
+		F659F8A118E4DF72009F331D /* HcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HcAppDelegate.m; sourceTree = "<group>"; };
+		F659F8A418E4DF72009F331D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F659F8A618E4DF72009F331D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F659F8AC18E4DF72009F331D /* ByteEditorFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByteEditorFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F659F8AD18E4DF72009F331D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F659F8B418E4DF72009F331D /* ByteEditorFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ByteEditorFieldTests-Info.plist"; sourceTree = "<group>"; };
+		F659F8B618E4DF72009F331D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F659F8B818E4DF72009F331D /* ByteEditorFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ByteEditorFieldTests.m; sourceTree = "<group>"; };
+		F659F8C218E4DFD4009F331D /* HcByteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcByteTextField.h; sourceTree = "<group>"; };
+		F659F8C318E4DFD4009F331D /* HcByteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcByteTextField.m; sourceTree = "<group>"; };
+		F659F8C418E4DFD4009F331D /* HcByteValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcByteValue.h; sourceTree = "<group>"; };
+		F659F8C518E4DFD4009F331D /* HcByteValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcByteValue.m; sourceTree = "<group>"; };
+		F659F8C618E4DFD4009F331D /* HcByteValueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HcByteValueView.xib; sourceTree = "<group>"; };
+		F659F8C718E4DFD4009F331D /* HcByteValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcByteValueViewController.h; sourceTree = "<group>"; };
+		F659F8C818E4DFD4009F331D /* HcByteValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcByteValueViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F659F88818E4DF72009F331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F659F88F18E4DF72009F331D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F659F8A918E4DF72009F331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F659F8AF18E4DF72009F331D /* Cocoa.framework in Frameworks */,
+				F659F8AE18E4DF72009F331D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F659F88218E4DF72009F331D = {
+			isa = PBXGroup;
+			children = (
+				F659F89418E4DF72009F331D /* ByteEditorField */,
+				F659F8B218E4DF72009F331D /* ByteEditorFieldTests */,
+				F659F88D18E4DF72009F331D /* Frameworks */,
+				F659F88C18E4DF72009F331D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F659F88C18E4DF72009F331D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F659F88B18E4DF72009F331D /* ByteEditorField.app */,
+				F659F8AC18E4DF72009F331D /* ByteEditorFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F659F88D18E4DF72009F331D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F659F88E18E4DF72009F331D /* Cocoa.framework */,
+				F659F8AD18E4DF72009F331D /* XCTest.framework */,
+				F659F89018E4DF72009F331D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F659F89018E4DF72009F331D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F659F89118E4DF72009F331D /* AppKit.framework */,
+				F659F89218E4DF72009F331D /* CoreData.framework */,
+				F659F89318E4DF72009F331D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F659F89418E4DF72009F331D /* ByteEditorField */ = {
+			isa = PBXGroup;
+			children = (
+				F659F8A018E4DF72009F331D /* HcAppDelegate.h */,
+				F659F8A118E4DF72009F331D /* HcAppDelegate.m */,
+				F659F8C218E4DFD4009F331D /* HcByteTextField.h */,
+				F659F8C318E4DFD4009F331D /* HcByteTextField.m */,
+				F659F8C418E4DFD4009F331D /* HcByteValue.h */,
+				F659F8C518E4DFD4009F331D /* HcByteValue.m */,
+				F659F8C618E4DFD4009F331D /* HcByteValueView.xib */,
+				F659F8C718E4DFD4009F331D /* HcByteValueViewController.h */,
+				F659F8C818E4DFD4009F331D /* HcByteValueViewController.m */,
+				F659F8A318E4DF72009F331D /* MainMenu.xib */,
+				F659F8A618E4DF72009F331D /* Images.xcassets */,
+				F659F89518E4DF72009F331D /* Supporting Files */,
+			);
+			path = ByteEditorField;
+			sourceTree = "<group>";
+		};
+		F659F89518E4DF72009F331D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F659F89618E4DF72009F331D /* ByteEditorField-Info.plist */,
+				F659F89718E4DF72009F331D /* InfoPlist.strings */,
+				F659F89A18E4DF72009F331D /* main.m */,
+				F659F89C18E4DF72009F331D /* ByteEditorField-Prefix.pch */,
+				F659F89D18E4DF72009F331D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F659F8B218E4DF72009F331D /* ByteEditorFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				F659F8B818E4DF72009F331D /* ByteEditorFieldTests.m */,
+				F659F8B318E4DF72009F331D /* Supporting Files */,
+			);
+			path = ByteEditorFieldTests;
+			sourceTree = "<group>";
+		};
+		F659F8B318E4DF72009F331D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F659F8B418E4DF72009F331D /* ByteEditorFieldTests-Info.plist */,
+				F659F8B518E4DF72009F331D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F659F88A18E4DF72009F331D /* ByteEditorField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F659F8BC18E4DF72009F331D /* Build configuration list for PBXNativeTarget "ByteEditorField" */;
+			buildPhases = (
+				F659F88718E4DF72009F331D /* Sources */,
+				F659F88818E4DF72009F331D /* Frameworks */,
+				F659F88918E4DF72009F331D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ByteEditorField;
+			productName = ByteEditorField;
+			productReference = F659F88B18E4DF72009F331D /* ByteEditorField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F659F8AB18E4DF72009F331D /* ByteEditorFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F659F8BF18E4DF72009F331D /* Build configuration list for PBXNativeTarget "ByteEditorFieldTests" */;
+			buildPhases = (
+				F659F8A818E4DF72009F331D /* Sources */,
+				F659F8A918E4DF72009F331D /* Frameworks */,
+				F659F8AA18E4DF72009F331D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F659F8B118E4DF72009F331D /* PBXTargetDependency */,
+			);
+			name = ByteEditorFieldTests;
+			productName = ByteEditorFieldTests;
+			productReference = F659F8AC18E4DF72009F331D /* ByteEditorFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F659F88318E4DF72009F331D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Hc;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Harsh Coast";
+				TargetAttributes = {
+					F659F8AB18E4DF72009F331D = {
+						TestTargetID = F659F88A18E4DF72009F331D;
+					};
+				};
+			};
+			buildConfigurationList = F659F88618E4DF72009F331D /* Build configuration list for PBXProject "ByteEditorField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F659F88218E4DF72009F331D;
+			productRefGroup = F659F88C18E4DF72009F331D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F659F88A18E4DF72009F331D /* ByteEditorField */,
+				F659F8AB18E4DF72009F331D /* ByteEditorFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F659F88918E4DF72009F331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F659F8CB18E4DFD4009F331D /* HcByteValueView.xib in Resources */,
+				F659F89918E4DF72009F331D /* InfoPlist.strings in Resources */,
+				F659F8A718E4DF72009F331D /* Images.xcassets in Resources */,
+				F659F89F18E4DF72009F331D /* Credits.rtf in Resources */,
+				F659F8A518E4DF72009F331D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F659F8AA18E4DF72009F331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F659F8B718E4DF72009F331D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F659F88718E4DF72009F331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F659F8CA18E4DFD4009F331D /* HcByteValue.m in Sources */,
+				F659F8CC18E4DFD4009F331D /* HcByteValueViewController.m in Sources */,
+				F659F8C918E4DFD4009F331D /* HcByteTextField.m in Sources */,
+				F659F89B18E4DF72009F331D /* main.m in Sources */,
+				F659F8A218E4DF72009F331D /* HcAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F659F8A818E4DF72009F331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F659F8B918E4DF72009F331D /* ByteEditorFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F659F8B118E4DF72009F331D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F659F88A18E4DF72009F331D /* ByteEditorField */;
+			targetProxy = F659F8B018E4DF72009F331D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F659F89718E4DF72009F331D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F659F89818E4DF72009F331D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F659F89D18E4DF72009F331D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F659F89E18E4DF72009F331D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F659F8A318E4DF72009F331D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F659F8A418E4DF72009F331D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F659F8B518E4DF72009F331D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F659F8B618E4DF72009F331D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F659F8BA18E4DF72009F331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F659F8BB18E4DF72009F331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F659F8BD18E4DF72009F331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ByteEditorField/ByteEditorField-Prefix.pch";
+				INFOPLIST_FILE = "ByteEditorField/ByteEditorField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F659F8BE18E4DF72009F331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ByteEditorField/ByteEditorField-Prefix.pch";
+				INFOPLIST_FILE = "ByteEditorField/ByteEditorField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F659F8C018E4DF72009F331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ByteEditorField.app/Contents/MacOS/ByteEditorField";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ByteEditorField/ByteEditorField-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ByteEditorFieldTests/ByteEditorFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F659F8C118E4DF72009F331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ByteEditorField.app/Contents/MacOS/ByteEditorField";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ByteEditorField/ByteEditorField-Prefix.pch";
+				INFOPLIST_FILE = "ByteEditorFieldTests/ByteEditorFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F659F88618E4DF72009F331D /* Build configuration list for PBXProject "ByteEditorField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F659F8BA18E4DF72009F331D /* Debug */,
+				F659F8BB18E4DF72009F331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F659F8BC18E4DF72009F331D /* Build configuration list for PBXNativeTarget "ByteEditorField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F659F8BD18E4DF72009F331D /* Debug */,
+				F659F8BE18E4DF72009F331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F659F8BF18E4DF72009F331D /* Build configuration list for PBXNativeTarget "ByteEditorFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F659F8C018E4DF72009F331D /* Debug */,
+				F659F8C118E4DF72009F331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F659F88318E4DF72009F331D /* Project object */;
+}
